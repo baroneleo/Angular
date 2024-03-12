@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+            
+            // escopo global, funçao, bloco
+
+
+            function escopoFuncao() {
+            
+
+            if(true){
+                if(true){
+                    var serie = `The Office`
+                    }
+                }
+
+            console.log(`funcao: `, serie)
+            }
+
+            escopoFuncao()
+
+            console.log(`global: `, serie)
+
+        </script>
+    </body>
+</html>
